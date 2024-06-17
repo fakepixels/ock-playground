@@ -15,7 +15,7 @@ function OnchainProviders({ children }: Props) {
     <WagmiProvider config={wagmiConfig}>
       <QueryClientProvider client={queryClient}>
         <OnchainKitProvider
-          apiKey={process.env.NEXT_PUBLIC_COINBASE_API_KEY}
+          apiKey="T3L6V5Entv_Jh2vbdan3HGGlza3EoQtW"
           chain={base}
         >
           {children}
