@@ -14,14 +14,16 @@ export default function Home() {
             <h2 className="text-2xl font-semibold mb-2">Wallet</h2>
           </aside>
           <WalletComponents />
-        </section>
+        </section>  
 
-        <section className="bg-gray-900 rounded-lg shadow-lg p-6">
+
+
+
+
+
+        <section className="bg-gray-900 rounded-lg shadow-lg p-8">
           <aside className="mb-6">
             <h2 className="text-2xl font-semibold mb-2">Swap</h2>
-            <p className="text-base italic">
-              Note: The Swap component only prepares the transaction. The developer needs to use Viem on their website to sign and send the transaction to the blockchain.
-            </p>
           </aside>
           <SwapComponents />
         </section>

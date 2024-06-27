@@ -16,6 +16,7 @@ function OnchainProviders({ children }: Props) {
       <QueryClientProvider client={queryClient}>
         <OnchainKitProvider
           apiKey="T3L6V5Entv_Jh2vbdan3HGGlza3EoQtW"
+          schemaId="0xf8b05c79f090979bf4a80270aba232dff11a10d9ca55c4f88de95317970f0de9"
           chain={base}
         >
           {children}
